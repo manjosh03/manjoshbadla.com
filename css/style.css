@@ -53,12 +53,21 @@ section {
 
 }
 
-.logo {
-    font-size: 2.5rem;
-    color: var(--text-color);
-    font-weight: 600;
-    cursor: default;
 
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--text-color);
+    text-decoration: none;
+    gap: 1rem;
+}
+
+.logo-img {
+    width: 40px;   /* adjust as needed */
+    height: 40px;
 }
 
 .navbar a {
