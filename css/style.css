@@ -361,6 +361,22 @@ span {
 }
 
 
+.contact-content {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: var(--text-color);
+    line-height: 1.8;
+  }
+  
+  .contact-content .email {
+    margin-top: 1.5rem;
+    font-size: 2.4rem;
+    color: var(--main-color);
+  }
+  
+
+
 .footer {
     display: flex;
     justify-content: space-between;
